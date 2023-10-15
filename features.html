@@ -9,8 +9,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/utiities.css">
-  <title>features</title>
+  <title>Galruki | Cloud Hosting for everyone</title>
 </head>
+<!-- -5:12 -->
 
 <body>
   <!-- Navbar -->
@@ -27,67 +28,126 @@
     </div>
   </div>
 
-  <!-- Head -->
-  <section class="features-head bg-primary py-3">
+  <!-- Showcase -->
+  <section class="showcase">
     <div class="container grid">
-      <div>
-        <h1 class="xl">Features</h1>
-        <p class="lead">Check out the features of Galruki that separate us from the competition</p>
+      <div class="showcase-text">
+        <h1>Faster Deployment</h1>
+        <p>Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out
+          the form to
+          try a demo of our platform</p>
+        <a href="features.html" class="btn btn-outline">Read More</a>
       </div>
-      <img src="images/server.png" alt="">
+
+      <div class="showcase-form card">
+        <h2>Request a Demo</h2>
+        <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+          <input type="hidden" name="contact" value="contact">
+          <p class="hidden">
+            <label>
+              Don’t fill this out if you’re human: <input name="bot-field" />
+            </label>
+          </p>
+          <div class="form-control">
+            <input type="text" name="Name" placeholder="name" required>
+          </div>
+          <div class="form-control">
+            <input type="text" name="company Name" placeholder="company-name" required>
+          </div>
+          <div class="form-control">
+            <input type="email" name="email" placeholder="email" required>
+          </div>
+          <input type="submit" value="Send" class="btn btn-primary">
+        </form>
+      </div>
     </div>
   </section>
 
-  <!-- Sub head -->
-  <section class="features-sub-head bg-light py-3">
-    <div class="container grid">
-      <div>
-        <h1 class="md">The Galruki platform</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur rerum laudantium, facere blanditiis
-          consectetur ducimus veritatis at eligendi. Quaerat placeat earum exercitationem at necessitatibus nobis
-          assumenda debitis optio ad ipsa.</p>
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container">
+      <h3 class="stats-heading text-center my-1">
+        Welcome to the best platform for building applications of all types with modern architecture and scaling
+      </h3>
+
+      <div class="grid grid-3 text-center my-4">
+        <div>
+          <i class="fas fa-server fa-3x"></i>
+          <h3>10,349,405</h3>
+          <p class="text-secondary">Deployment</p>
+        </div>
+        <div>
+          <i class="fas fa-upload fa-3x"></i>
+          <h3>893 TB</h3>
+          <p class="text-secondary">Published</p>
+        </div>
+        <div>
+          <i class="fas fa-project-diagram fa-3x"></i>
+          <h3>4, 325, 419</h3>
+          <p class="text-secondary">Projects</p>
+        </div>
       </div>
-      <img src="images/server2.png" alt="">
     </div>
   </section>
 
-  <section class="features-main my-2">
-    <div class="container grid grid-3">
-      <div class="card flex">
-        <i class="fas fa-server fa-3x"></i>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat sunt quaerat, aliquam totam,
-          error quo eveniet at nemo eum enim incidunt quia maiores rem asperiores mollitia. Error, accusantium facilis!
-        </p>
+  <!-- Cli -->
+  <section class="cli">
+    <div class="container grid">
+      <img src="images/cli.png" alt="cli">
+      <div class="card">
+        <h3>Simple to use, cross platform CLI</h3>
       </div>
-      <div class="card flex">
-        <i class="fas fa-server fa-3x"></i>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat sunt quaerat, aliquam totam,
-          error quo eveniet at nemo eum enim incidunt quia maiores rem asperiores mollitia. Error, accusantium facilis!
-        </p>
+      <div class="card">
+        <h3>Deploy in seconds</h3>
       </div>
-      <div class="card flex">
-        <i class="fas fa-server fa-3x"></i>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat sunt quaerat, aliquam totam,
-          error quo eveniet at nemo eum enim incidunt quia maiores rem asperiores mollitia. Error, accusantium facilis!
-        </p>
+    </div>
+  </section>
+
+  <!-- CLOUD -->
+  <section class="cloud bg-primary my-2 py-2">
+    <div class="container grid">
+      <div class="text-center">
+        <h2 class="lg">Supreme Cloud Hosting</h2>
+        <p class="lead my-1">Cloud hosting like you've never seen. Fast, efficient and scalable</p>
+        <a href="features.html" class="btn btn-dark">Read More</a>
       </div>
-      <div class="card flex">
-        <i class="fas fa-server fa-3x"></i>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat sunt quaerat, aliquam totam,
-          error quo eveniet at nemo eum enim incidunt quia maiores rem asperiores mollitia. Error, accusantium facilis!
-        </p>
+      <img src="images/cloud.png" alt="cloud">
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section class="languages">
+    <h2 class="md text-center my-2">
+      Supported Language
+    </h2>
+    <div class="container flex">
+      <div class="card">
+        <h4>Node.js</h4>
+        <img src="images/logos/node.png" alt="">
       </div>
-      <div class="card flex">
-        <i class="fas fa-server fa-3x"></i>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat sunt quaerat, aliquam totam,
-          error quo eveniet at nemo eum enim incidunt quia maiores rem asperiores mollitia. Error, accusantium facilis!
-        </p>
+      <div class="card">
+        <h4>clojure</h4>
+        <img src="images/logos/clojure.png" alt="">
       </div>
-      <div class="card flex">
-        <i class="fas fa-server fa-3x"></i>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat sunt quaerat, aliquam totam,
-          error quo eveniet at nemo eum enim incidunt quia maiores rem asperiores mollitia. Error, accusantium facilis!
-        </p>
+      <div class="card">
+        <h4>csharp</h4>
+        <img src="images/logos/csharp.png" alt="">
+      </div>
+      <div class="card">
+        <h4>go</h4>
+        <img src="images/logos/go.png" alt="">
+      </div>
+      <div class="card">
+        <h4>php</h4>
+        <img src="images/logos/php.png" alt="">
+      </div>
+      <div class="card">
+        <h4>ruby</h4>
+        <img src="images/logos/ruby.png" alt="">
+      </div>
+      <div class="card">
+        <h4>scala</h4>
+        <img src="images/logos/scala.png" alt="">
       </div>
     </div>
   </section>
